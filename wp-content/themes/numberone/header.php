@@ -4,20 +4,20 @@
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 
-		<link href="assets/css/bootstrap.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-        <link href="assets/css/flexslider.css" rel="stylesheet">
-        <link href="assets/css/switcher.css" rel="stylesheet">
-        <link href="assets/css/parallax_slider/style.css" rel="stylesheet">
+		<link href="wp-content/themes/numberone/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="wp-content/themes/numberone/assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="wp-content/themes/numberone/assets/css/flexslider.css" rel="stylesheet">
+        <link href="wp-content/themes/numberone/assets/css/switcher.css" rel="stylesheet">
+        <link href="wp-content/themes/numberone/assets/css/parallax_slider/style.css" rel="stylesheet">
         <noscript>
-	        <link rel="stylesheet" type="text/css" href="assets/css/parallax_slider/nojs.css" />
+	        <link rel="stylesheet" type="text/css" href="wp-content/themes/numberone/assets/css/parallax_slider/nojs.css" />
         </noscript>
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet"> 
-        <link href="assets/css/social.css" rel="stylesheet"> 
+        <link href="wp-content/themes/numberone/assets/css/font-awesome.min.css" rel="stylesheet"> 
+        <link href="wp-content/themes/numberone/assets/css/social.css" rel="stylesheet"> 
 
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
-        <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
-        <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+        
+        
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +35,7 @@
 
 	</head>
 	<body <?php body_class(); ?>>
+	
 
 		<!--Start Main-wrapper-->
         <div class="main-wrapper">
@@ -51,9 +52,11 @@
                         		</a>
                         		<div id="main-nav">
                             		<div class="nav-collapse collapse">
-                                		<div class="nav">
-                                        		<?php html5blank_nav(); ?>
-                                    		</div>
+                                		<ul class="nav">
+                                    		<li class="active">
+                                        		<a>Home</a>
+                                    		</li>
+                                		</ul>
                             		</div><!--nav-collapse-->
                         		</div><!--main-nav-->
                     		</div><!--container-->
@@ -70,7 +73,7 @@
 							<p>abc</p>
 							<span class="da-link">
 								<a href="#">
-									<span class="main-link"><i class="fa fa-tablet"></i> Available on market</span>
+									<span class="main-link"><i class="fa fa-tablet"></i> Yoo</span>
 									<span class="arrow"> &rarr; </span>
 								</a>
 							</span>
@@ -82,7 +85,7 @@
 							<p>def</p>
 							<span class="da-link">
 								<a href="#">
-									<span class="main-link"><i class="fa fa-tablet"></i> Available on market</span>
+									<span class="main-link"><i class="fa fa-tablet"></i> Wassup</span>
 									<span class="arrow"> &rarr; </span>
 								</a>
 							</span>
@@ -94,7 +97,7 @@
 							<p>ghi</p>
 							<span class="da-link">
 								<a href="#">
-									<span class="main-link"><i class="fa fa-tablet"></i> Available on market</span>
+									<span class="main-link"><i class="fa fa-tablet"></i> Bro</span>
 									<span class="arrow"> &rarr; </span>
 								</a>
 							</span>
@@ -134,4 +137,8 @@
     		</div><!--end headtop-->
 
 
+			
 
+		
+
+		
